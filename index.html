@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Your Website - Login</title>
+    <link rel="stylesheet" href="stylelogin.css">
+    <script src="js/script.js"></script>
+</head>
+<body>
+    <header>
+        <!-- Add your logo or website name here -->
+        <h1>Login to Your Account</h1>
+    </header>
+
+    <section>
+        <form id="loginForm" onsubmit="return validateForm()">
+            <label for="username">Username:</label>
+            <input type="text" id="username" name="username" placeholder="Enter your username" required>
+
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" placeholder="Enter your password" required>
+
+            <button type="submit">Login</button>
+        </form>
+    </section>
+
+    <footer>
+        <!-- Add your footer content here -->
+        <p>&copy; 2023 Your Website. All rights reserved.</p>
+    </footer>
+</body>
+</html>
